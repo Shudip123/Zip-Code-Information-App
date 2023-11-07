@@ -1,0 +1,28 @@
+{
+  "post code": "400093",
+  "country": "India",
+  "country abbreviation": "IN",
+  "places": [
+    {
+      "place name": "M I D C Plots",
+      "longitude": "72.85",
+      "state": "Maharashtra",
+      "state abbreviation": "MM",
+      "latitude": "19.0167"
+    },
+    {
+      "place name": "Abmedabad Exp Highway M.I.D.C",
+      "longitude": "72.85",
+      "state": "Maharashtra",
+      "state abbreviation": "MM",
+      "latitude": "19.0167"
+    },
+    {
+      "place name": "Gandhi Nagar",
+      "longitude": "72.85",
+      "state": "Maharashtra",
+      "state abbreviation": "MM",
+      "latitude": "19.0167"
+    }
+  ]
+}

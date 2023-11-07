@@ -1,0 +1,131 @@
+.form{
+    width: 400px;
+    height: 35px;
+    border-radius: 25px;
+    
+}
+
+.inputtext{
+  margin-top: 15rem;
+}
+.form{
+  border-color:blue; 
+            box-shadow: 0 0 10px blue; 
+            outline: none; 
+}
+.searchbtn{
+  color: white;
+  margin: 2rem;
+  margin-left: -10rem;
+  margin-top: 1rem;
+}
+.clearbtn{
+  color: white;
+  margin-right: -5rem;
+  margin-bottom: 1rem;
+}
+/* .container{
+  position: relative;
+  padding-bottom: 58px;
+  min-height: 100vh;
+} */
+footer{
+  padding: 20px;
+  padding-bottom: 40px;
+  bottom: 0;
+  position: absolute;
+  margin-left: 30rem;
+}
+.foot-panel{
+  /* background-color: yellowgreen; */
+  color:white;
+  font-weight: 500;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+.error-message{
+  position: absolute;
+  height: 30px;
+  width: 300px;
+  color: black;
+  background-color: rgb(255, 255, 129);
+  top: 10rem;
+  left: 38rem;
+  font-size: 1.2rem;
+}
+video{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  
+}
+@media (min-aspect-ratio : 16/9){
+  video{
+    width: 100%;
+    height:auto;
+  }
+  
+}
+@media (max-aspect-ratio : 16/9){
+  video{
+    width: auto;
+    height: 100%;
+  }
+  
+}
+.logo{
+  
+  width: 150px;
+  
+}
+.imglogo{
+  position: absolute;
+  padding-top: 50px;
+  padding-left: 25px;
+}
+.content{
+  position: relative;
+  /* height: auto;
+  width: 100%; */
+  top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  -webkit-animation: content 1s ease-in-out infinite alternate;
+  -moz-animation:content 1s ease-in-out infinite alternate;
+  animation: content 1s ease-in-out infinite alternate;
+}
+@keyframes content {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(114, 114, 235), 0 0 40px  rgb(114, 114, 235), 0 0 50px  rgb(114, 114, 235), 0 0 60px rgb(114, 114, 235), 0 0 70px rgb(114, 114, 235);
+  }
+  
+}
+.content h3{
+  font-size: 40px;
+  font-weight: 600;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(213, 213, 245);
+}
+.divtable{
+  position: absolute;
+  left: 360px;
+}
+
+.transparent-table th{
+  background-color: transparent;
+  color: white;
+}
+.transparent-table td {
+  color: white;
+  border: 1px solid #ddd;
+  font-weight: 400;
+  background-color: transparent;
+}
+
